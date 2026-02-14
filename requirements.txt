@@ -1,5 +1,5 @@
-discord.py==2.3.2
-python-dotenv
-yt-dlp
-aiohttp
-requests
+discord.py
+PyNaCl
+youtube_dl
+pynacl
+ffmpeg-python
