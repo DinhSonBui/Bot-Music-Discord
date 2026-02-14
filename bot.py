@@ -10,7 +10,7 @@ import asyncio
 
 # Load environment variables
 load_dotenv()
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 # Song queues for each guild
 SONG_QUEUES = {}
@@ -258,3 +258,4 @@ async def menu(interaction: discord.Interaction):
 
 # Run the bot
 bot.run(TOKEN)
+
